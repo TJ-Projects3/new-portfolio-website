@@ -1,0 +1,66 @@
+.banner-image {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  width: 30%;
+  /* Adjust this variable to precisely match the shirt color */
+  --mist-color: #753104; /* placeholder brown; replace with eyedropped hex */
+}
+
+.banner-image::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background: radial-gradient(
+    circle at 50% 45%,
+    color-mix(in srgb, var(--mist-color), transparent 65%) 0%,
+    color-mix(in srgb, var(--mist-color), transparent 72%) 35%,
+    color-mix(in srgb, var(--mist-color), transparent 80%) 55%,
+    transparent 75%
+  );
+  filter: blur(24px);
+  z-index: 0;
+}
+
+.banner-image__img {
+  width: 300px; /* keep your desired size */
+  height: 300px; /* keep your desired size */
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;  /* center the image itself */
+  margin-right: auto; /* center the image itself */
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+}
+
+@media (min-width: 768px) {
+  .banner-image__img {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+
+
+/* Heading text below the banner image */
+.banner-image-text {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.banner-image-text p {
+  font-family: "League Spartan", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-weight: 800;
+  font-size: clamp(28px, 4.2vw, 48px);
+  line-height: 1.1;
+  letter-spacing: 0.2px;
+  margin: 0 auto;
+  max-width: 24ch;
+}
+
+@media (min-width: 768px) {
+  .banner-image-text { margin-top: 50px; }
+}
