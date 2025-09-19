@@ -3,6 +3,7 @@ export default function Navbar() {
         <header>
             <nav>
                 <h2>home</h2>
+                <h2>projects</h2>
                 <h2>resume</h2>
             </nav>
         </header>
