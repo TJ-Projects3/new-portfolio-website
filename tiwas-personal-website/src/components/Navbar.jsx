@@ -2,9 +2,9 @@ export default function Navbar() {
     return (
         <header>
             <nav>
-                <h2>home</h2>
-                <h2>projects</h2>
-                <h2>resume</h2>
+                <a href="/"><h2>home</h2></a>
+                <a href="#projects"><h2>projects</h2></a>
+                <a href="/TJO_Resume30.pdf" target="_blank"><h2>resume</h2></a>
             </nav>
         </header>
     )

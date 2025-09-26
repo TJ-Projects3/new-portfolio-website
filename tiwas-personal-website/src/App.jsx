@@ -1,6 +1,8 @@
 import BannerImage from './components/BannerImage'
 import Navbar from './components/Navbar'
-import Projects from './components/AboutMe'  
+import AboutMe from './components/AboutMe'  
+import Projects from './components/Projects'
+import TechStack from './components/TechStack'
 
 function App() {
 
@@ -8,7 +10,9 @@ function App() {
     <>
       <Navbar />
       <BannerImage />
+      <AboutMe />
       <Projects />
+      <TechStack />
     </> 
   )
 }

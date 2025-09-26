@@ -39,9 +39,10 @@
   color: #1a1a1a;
 }
 
-/*.hero-title:hover {
-  font-size: 4.2rem;
-} */
+.hero-title:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 
 .hero-subtitle {
   font-family: "League Spartan", system-ui, -apple-system, sans-serif;
