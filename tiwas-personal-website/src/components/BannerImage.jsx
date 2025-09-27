@@ -16,28 +16,22 @@ export default function BannerImage() {
         {/* Social Media Buttons */}
         <div className="hero-buttons">
           <a 
-            href="https://www.linkedin.com/in/tiwalayo-oluwalade-3408742a9/" 
+            href="https://www.linkedin.com/in/tiwalayooluwalade/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link linkedin"
+            aria-label="LinkedIn Profile"
           >
-            LinkedIn
+            <img src="/LinkedIn-aptrans.webp" alt="LinkedIn" />
           </a>
           <a 
             href="https://github.com/TJ-Projects3" 
             target="_blank" 
             rel="noopener noreferrer"
             className="social-link github"
+            aria-label="GitHub Profile"
           >
-            GitHub
-          </a>
-          <a 
-            href="https://replit.com/@toluwal1" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="social-link replit"
-          >
-            Replit
+            <img src="/git-icon-1.png" alt="GitHub" />
           </a>
         </div>
       </div>
