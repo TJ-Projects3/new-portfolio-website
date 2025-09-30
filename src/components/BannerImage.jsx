@@ -22,7 +22,7 @@ export default function BannerImage() {
             className="social-link linkedin"
             aria-label="LinkedIn Profile"
           >
-            <img src="/LinkedIn-aptrans.webp" alt="LinkedIn" />
+            <img src="src/assets/LinkedIn-aptrans.webp" alt="LinkedIn" />
           </a>
           <a 
             href="https://github.com/TJ-Projects3" 
@@ -31,7 +31,7 @@ export default function BannerImage() {
             className="social-link github"
             aria-label="GitHub Profile"
           >
-            <img src="/git-icon-1.png" alt="GitHub" />
+            <img src="src/assets/git-icon-1.png" alt="GitHub" />
           </a>
         </div>
       </div>
@@ -41,7 +41,7 @@ export default function BannerImage() {
         <div className="banner-image">
           <img
             className="banner-image__img"
-            src="/tiwa-professional.jpg"
+            src="src/assets/tiwa-professional.jpg"
             alt="Tiwa professional headshot"
           />
         </div>
