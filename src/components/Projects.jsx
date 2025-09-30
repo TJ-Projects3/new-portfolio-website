@@ -9,7 +9,7 @@ export default function Projects() {
             <div className="projects-container">
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src="./src/assets/Coursesight Banner.png" alt="Coursesight for Students" />
+                        <img src="/Coursesight Banner.png" alt="Coursesight for Students" />
                     </div>
                     <h3>Coursesight</h3>
                     <p>72 users signed up, 229 courses available, $1,000+ in funding</p>
@@ -17,7 +17,7 @@ export default function Projects() {
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src="./src/assets/AIFlash-Banner.png" alt="TJ-Projects3 AI Flashcards Project" />
+                        <img src="/AIFlash-Banner.png" alt="TJ-Projects3 AI Flashcards Project" />
                     </div>
                     <h3>AI Flashcards</h3>
                     <p>Generate personalized AI-powered flashcards for any topic!</p>
@@ -25,7 +25,7 @@ export default function Projects() {
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src="./src/assets/MERN-Banner.png" alt="TJ-Projects3 Cozy Corners Project" />
+                        <img src="/MERN-Banner.png" alt="TJ-Projects3 Cozy Corners Project" />
                     </div>
                     <h3>Cozy Corners</h3>
                     <p>A website to post and find the perfect furniture inspo!</p>
