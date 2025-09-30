@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'League Spartan';
+  background-image: url('/grid-pattern.jpg');
 }
 
 .center-img {
